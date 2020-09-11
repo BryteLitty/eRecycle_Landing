@@ -90,10 +90,20 @@ body{
 
 }
 .btn-lg{
-    border-width: medium;
-    border-radius: 0;
+    /* border-width: medium; */
+    border-radius: 5;
+    border: 2px solid white;
+    padding: 5px;
     font-size: 1.1rem;
+}
 
+.btn-lg2{
+    margin-left: 10px;
+    border-width: medium;
+    border: 1px #22AA86 solid;
+    border-radius: 5;
+    font-size: 1.1rem;
+    background-color: #22AA86;
 }
 
 /* Cousrse Section*/
@@ -244,7 +254,7 @@ hr.socket{
 }
 
 .clients img{
-    max-width: 50%;
+    max-width: 20%;
     display: block;
     margin: 0 auto;
 }
